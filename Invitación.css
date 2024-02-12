@@ -3,11 +3,6 @@
   background-position: 50% 50%;
 }
 
-.u-section-5 {
-  background-image: url("images/5.gif");
-  background-position: 50% 50%;
-}
-
 .u-section-1 .u-sheet-1 {
   min-height: 2222px;
 }
@@ -239,6 +234,8 @@
 .u-section-3 .u-btn-2 {
   background-image: none;
   box-shadow: 5px 5px 20px 0 rgba(0,0,0,0.4);
+  font-size: 1rem;
+  font-weight: normal;
 }
 
 @media (max-width: 575px) {
@@ -255,16 +252,58 @@
     margin: 138px auto 55px;
     padding: 7px 26px 8px 25px;
   }
-} .u-section-4 {
+}
+
+.u-section-6 {
+  background-image: url("images/6.gif");
+  background-position: 50% 50%;
+}
+
+
+
+.u-section-6 .u-sheet-1 {
+  min-height: 790px;
+}
+
+.u-section-6 .u-custom-html-1 {
+  margin-bottom: 0;
+}
+
+@media (max-width: 1199px) {
+  .u-section-6 .u-sheet-1 {
+    min-height: 651px;
+  }
+}
+
+@media (max-width: 991px) {
+  .u-section-6 .u-sheet-1 {
+    min-height: 499px;
+  }
+}
+
+@media (max-width: 767px) {
+  .u-section-6 .u-sheet-1 {
+    min-height: 374px;
+  }
+}
+
+@media (max-width: 575px) {
+  .u-section-6 .u-sheet-1 {
+    min-height: 790px;
+  }
+
+
+
+} .u-section-5 {
   background-image: url("images/4.gif");
   background-position: 50% 50%;
 }
 
-.u-section-4 .u-sheet-1 {
+.u-section-5 .u-sheet-1 {
   min-height: 793px;
 }
 
-.u-section-4 .u-btn-1 {
+.u-section-5 .u-btn-1 {
   font-size: 1rem;
   font-weight: normal;
   text-transform: none;
@@ -274,7 +313,7 @@
 }
 
 @media (max-width: 575px) {
-  .u-section-4 .u-btn-1 {
+  .u-section-5 .u-btn-1 {
     font-size: 0.875rem;
     font-weight: 700;
     text-transform: uppercase;
